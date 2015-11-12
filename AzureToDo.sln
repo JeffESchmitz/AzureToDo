@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo.iOS", "AzureToDo\AzureToDo.iOS.csproj", "{BD309EF8-2D51-4538-A6DC-A91D7744C10A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo.iOS", "AzureToDo.iOS\AzureToDo.iOS.csproj", "{BD309EF8-2D51-4538-A6DC-A91D7744C10A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo.iOS.UITests", "AzureToDo.UITests\AzureToDo.iOS.UITests.csproj", "{7F92E4BD-1164-4B0C-A088-0ADD2B1B0936}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo.iOS.UITests", "AzureToDo.iOS.UITests\AzureToDo.iOS.UITests.csproj", "{7F92E4BD-1164-4B0C-A088-0ADD2B1B0936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +33,8 @@ Global
 		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Debug|iPhone.Build.0 = Debug|iPhone
 		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Release|Any CPU.Build.0 = Release|iPhone
+		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Release|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Release|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Release|iPhone.ActiveCfg = Release|iPhone
 		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Release|iPhone.Build.0 = Release|iPhone
 		{BD309EF8-2D51-4538-A6DC-A91D7744C10A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator

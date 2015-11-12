@@ -37,7 +37,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AzureToDo\AzureToDo.iOS.csproj">
+    <ProjectReference Include="..\AzureToDo.iOS\AzureToDo.iOS.csproj">
       <Project>{BD309EF8-2D51-4538-A6DC-A91D7744C10A}</Project>
       <Name>AzureToDo.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
