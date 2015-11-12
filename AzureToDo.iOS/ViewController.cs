@@ -14,6 +14,10 @@ namespace AzureToDo
 		{
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
+
+			AddButton.TouchUpInside += (sender, e) => {
+				TitleLabel.Text = "Foobar!";
+			};
 		}
 
 		public override void DidReceiveMemoryWarning ()
