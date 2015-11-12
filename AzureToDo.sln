@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo", "AzureToDo\AzureToDo.csproj", "{BD309EF8-2D51-4538-A6DC-A91D7744C10A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo.iOS", "AzureToDo\AzureToDo.iOS.csproj", "{BD309EF8-2D51-4538-A6DC-A91D7744C10A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo.UITests", "AzureToDo.UITests\AzureToDo.UITests.csproj", "{7F92E4BD-1164-4B0C-A088-0ADD2B1B0936}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureToDo.iOS.UITests", "AzureToDo.UITests\AzureToDo.iOS.UITests.csproj", "{7F92E4BD-1164-4B0C-A088-0ADD2B1B0936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
