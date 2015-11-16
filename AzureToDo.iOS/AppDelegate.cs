@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace AzureToDo
 {
@@ -9,6 +10,10 @@ namespace AzureToDo
 	public class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
+		public static MobileServiceClient MobileService = new MobileServiceClient(
+			"https://xamarin-todolist-jes.azure-mobile.net/",
+			"aCIiHrwiviumerJZbNLCQOjlDeIsrv21"
+		);
 
 		public override UIWindow Window {
 			get;
