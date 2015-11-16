@@ -15,9 +15,13 @@ namespace AzureToDo
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
 
-			AddButton.TouchUpInside += (sender, e) => {
-				TitleLabel.Text = "Foobar!";
+			AddButton.TouchUpInside += async (sender, e) => {
+				const string foobar = "Foobar!";
+				TitleLabel.Text = foobar;
+				Item item = new Item { Text = foobar };
+				await AppDelegate.mobileServiceClient.GetTable<Item>().InsertAsync (item);
 			};
+
 		}
 
 		public override void DidReceiveMemoryWarning ()

@@ -9,11 +9,12 @@ namespace AzureToDo
 	[Register ("AppDelegate")]
 	public class AppDelegate : UIApplicationDelegate
 	{
-		// class-level declarations
-		public static MobileServiceClient MobileService = new MobileServiceClient(
-			"https://xamarin-todolist-jes.azure-mobile.net/",
-			"aCIiHrwiviumerJZbNLCQOjlDeIsrv21"
-		);
+//		// class-level declarations
+//		public static MobileServiceClient MobileService = new MobileServiceClient(
+//			"https://xamarin-todolist-jes.azure-mobile.net/",
+//			"aCIiHrwiviumerJZbNLCQOjlDeIsrv21"
+//		);
+		public static MobileServiceClient mobileServiceClient;
 
 		public override UIWindow Window {
 			get;
@@ -30,6 +31,11 @@ namespace AzureToDo
 			Xamarin.Calabash.Start();
 			#endif
 
+			CurrentPlatform.Init ();
+			mobileServiceClient = new MobileServiceClient(
+							"https://xamarin-todolist-jes.azure-mobile.net/",
+							"aCIiHrwiviumerJZbNLCQOjlDeIsrv21"
+						);
 			return true;
 		}
 
